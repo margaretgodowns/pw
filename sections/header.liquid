@@ -66,34 +66,6 @@
             </div>
           </div>
           <div class="grid__item large--one-third medium-down--one-half">
-          <!-- begin site-nav -->
-            <ul class="site-nav" id="AccessibleNav">
-              <li class="site-nav__item site-nav__expanded-item site-nav--has-dropdown{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}" aria-haspopup="true">
-                <a href="{{ link.url }}" class="site-nav__link">
-                  TEST
-                  <span class="icon icon-arrow-down" aria-hidden="true"></span>
-                </a>
-              </li>
-
-              {% if shop.customer_accounts_enabled %}
-                <li class="site-nav__item site-nav__expanded-item">
-                  <a class="site-nav__link site-nav__link--icon" href="/account">
-                    <span class="icon-fallback-text">
-                      <span class="icon icon-customer" aria-hidden="true"></span>
-                      <span class="fallback-text">
-                        {% if customer %}
-                          {{ 'layout.customer.account' | t }}
-                        {% else %}
-                          {{ 'layout.customer.log_in' | t }}
-                        {% endif %}
-                      </span>
-                    </span>
-                  </a>
-                </li>
-              {% endif %}
-
-            </ul>
-            <!-- //site-nav -->
           </div>
           <div class="grid__item large--one-third medium-down--one-half text-center">
             {% comment %}
