@@ -1,6 +1,6 @@
 <style>
   .site-header__logo img {
-    max-width: {{ section.settings.logo_max_width | escape | default: '60' | remove: 'px' | append: 'px' }};
+    max-width: {{ section.settings.logo_max_width | escape | default: '80' | remove: 'px' | append: 'px' }};
   }
 
   @media screen and (max-width: 768px) {
@@ -56,15 +56,20 @@
 
     <header class="site-header" role="banner">
       <div class="wrapper">
-        <div class="nav-wrapper">
-          <!-- begin site-nav -->
+        <div class="nav-wrapper desktop-nav-wrapper">
+          <div class="list-group">
+            <a class="list-group-item" href="#"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
+            <a class="list-group-item" href="#"><i class="fa fa-pinterest-p fa-fw" aria-hidden="true"></i></a>
+            <a class="list-group-item" href="#"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></a>
+          </div>
+          <!-- begin main-nav -->
           <ul class="site-nav" id="AccessibleNav">
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="{{ link.url }}" class="site-nav__link">Portfolio</a>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="{{ link.url }}" class="site-nav__link">Shop</a>
             </li>
-            <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
+            <li class="logo site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
                 <a href="/" itemprop="url" class="site-header__logo-link{% if section.settings.logo-inverted %} logo--has-inverted{% endif %}">
                   <img src="{{ section.settings.logo | img_url: image_size }}" srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.logo.alt | default: shop.name }}"
@@ -79,7 +84,11 @@
               <a href="{{ link.url }}" class="site-nav__link">About</a>
             </li>
           </ul>
-        <!-- //site-nav -->
+          <!-- //main-nav -->
+          <div class="list-group search-cart-nav">
+            <a class="list-group-item" href="#"><i class="fa fa-search fa-fw fa-flip-horizontal" aria-hidden="true"></i></a>
+            <a class="fa" href="/cart">Cart (0)</a>
+          </div>
         </div>
       </div>
     </header>
@@ -111,7 +120,7 @@
         "type": "text",
         "id": "logo_max_width",
         "label": "Custom logo width (in pixels)",
-        "default": "60"
+        "default": "80"
       },
       {
         "type": "select",

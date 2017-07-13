@@ -2698,10 +2698,15 @@ $slick-opacity-not-active: 0.25;
 .site-nav {
   white-space: nowrap;
   opacity: 0;
-  width: 100%;
   text-align: center;
   @include display-flexbox();
   @include justify-content(space-between);
+  @include flex(1 1 50%);
+  align-items: center;
+  font-size: 21px;
+  @include at-query($max, $medium) {
+    @include justify-content(center);
+  }
 
   .no-js &,
   &.site-nav--init {
@@ -2712,6 +2717,12 @@ $slick-opacity-not-active: 0.25;
 
 .site-nav__item {
   white-space: normal;
+}
+
+.site-nav__item:not(.logo) {
+  @include at-query($max, $medium) {
+    display: none;
+  }
 }
 
 .site-nav__link {
@@ -3783,4 +3794,19 @@ button.mfp-arrow {
 }
 
 /*================ Custom Pierce & Ward ================*/
+.nav-wrapper {
+  @include display-flexbox();
+  @include justify-content(space-between);
+}
 
+.list-group {
+  @include flex(1 1 10%);
+}
+
+.search-cart-nav {
+  text-align: right;
+}
+
+.fa {
+  font-size: 16px !important;
+}
