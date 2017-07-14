@@ -68,7 +68,7 @@
           "main_menu_link_list": "main-menu",
           "logo": "shopify:\/\/shop_images\/LOGO.png",
           "logo-inverted": "",
-          "logo_max_width": "80",
+          "logo_max_width": "60",
           "search": "modal",
           "show_announcement": false,
           "home_page_only": true,
