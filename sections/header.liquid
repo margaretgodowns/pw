@@ -73,11 +73,11 @@
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="{{ link.url }}" class="site-nav__link">Portfolio</a>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
-              <a href="{{ link.url }}" class="site-nav__link">Shop</a>
+              <a href="/products" class="site-nav__link">Shop</a>
             </li>
             <li class="logo desktop-logo site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
-                <a href="/" itemprop="url" class="site-header__logo-link{% if section.settings.logo-inverted %} logo--has-inverted{% endif %}">
+                <a href="/pages/home" itemprop="url" class="site-header__logo-link{% if section.settings.logo-inverted %} logo--has-inverted{% endif %}">
                   <img src="{{ section.settings.logo | img_url: image_size }}" srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.logo.alt | default: shop.name }}"
                   itemprop="logo">
                 </a>
