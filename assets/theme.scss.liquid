@@ -2718,7 +2718,7 @@ $slick-opacity-not-active: 0.25;
     left:0px;
     top:-100%;
     transform:translateY(0%);
-    transition:450ms ease-in-out;
+    transition:450ms ease-in-out !important;
     background-color: rbga(0, 0, 0, 0.5);
     &.visible {
       transform:translateY(100%);
@@ -3839,6 +3839,8 @@ button.mfp-arrow {
 
 .mobile-logo {
   display: none;
+  background-color: #ffffff;
+  z-index: 6;
   @include at-query($max, $medium) {
     display: block;
     z-index: 5;
