@@ -84,9 +84,12 @@
 
   <div id="PageContainer" class="page-container">
 
-    {% section 'header' %}
+    {% unless template.name == "index" %}    
+      {% section 'header' %}
+    {% endunless %}  
 
     {% if template.name == "index" %}
+      {% section 'branded-overlay' %}
       {% section 'slideshow-landing' %}
     {% endif %}
 

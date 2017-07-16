@@ -71,34 +71,11 @@
           "logo_max_width": "60",
           "search": "modal",
           "show_announcement": false,
-          "home_page_only": true,
+          "home_page_only": false,
           "text": "Announce something here",
           "link": "",
           "color_bg": "#1c1d1d",
           "color_text": "#ffffff"
-        }
-      },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slideshow-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/home-background.jpg",
-              "slide_text_color": "is-dark",
-              "slide_subheading": "",
-              "slide_heading": "",
-              "slide_cta": "",
-              "slide_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slideshow-0"
-        ],
-        "settings": {
-          "hero_home_auto": true,
-          "home_hero_auto_speed": "5000"
         }
       },
       "featured-products": {
@@ -172,6 +149,64 @@
         "settings": {
           "footer_link_list": "footer"
         }
+      },
+      "slideshow-landing": {
+        "type": "slideshow-landing",
+        "blocks": {
+          "1500238527161": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_384.jpg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          },
+          "1500238544138": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/slideshow_landing_2.jpg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1500238527161",
+          "1500238544138"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000"
+        }
+      },
+      "home": {
+        "type": "home",
+        "blocks": {
+          "1500238858280": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home-background.jpg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "An introductory",
+              "slide_heading": "Hero Banner",
+              "slide_cta": "Shop now",
+              "slide_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1500238858280"
+        ],
+        "settings": {
+          "hero_home_auto": true,
+          "home_hero_auto_speed": "5000"
+        }
       }
     },
     "content_for_index": []
@@ -224,24 +259,6 @@
             "color_bg": "#1c1d1d",
             "color_text": "#ffffff"
           }
-        },
-        "slideshow": {
-          "type": "slideshow",
-          "blocks": {
-            "slideshow-0": {
-              "type": "slide",
-              "settings": {}
-            },
-            "slideshow-1": {
-              "type": "slide",
-              "settings": {}
-            }
-          },
-          "block_order": [
-            "slideshow-0",
-            "slideshow-1"
-          ],
-          "settings": {}
         },
         "featured-products": {
           "type": "featured-products",
@@ -360,24 +377,6 @@
       "product_vendor_enable": false,
       "social_sharing_style": "clean",
       "sections": {
-        "slideshow": {
-          "type": "slideshow",
-          "blocks": {
-            "1495823280244": {
-              "type": "slide",
-              "settings": {
-                "slide_text_color": "is-light"
-              }
-            }
-          },
-          "block_order": [
-            "1495823280244"
-          ],
-          "settings": {
-            "hero_home_auto": false,
-            "home_hero_auto_speed": "5000"
-          }
-        },
         "featured-products": {
           "type": "featured-products",
           "settings": {
