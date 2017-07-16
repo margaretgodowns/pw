@@ -106,7 +106,11 @@
 
     {% section 'header' %}
 
-    {% if template.name == "index" or template.name == "home" %}
+    {% if template.name == "index" or page_title == "home" %}
+      {% section 'slideshow' %}
+    {% endif %}
+
+    {% if template.name == "home" %}
       {% section 'slideshow' %}
     {% endif %}
 
