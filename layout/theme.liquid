@@ -82,36 +82,12 @@
 {% endcomment %}
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}">
 
-  <div id="NavDrawer" class="drawer drawer--left">
-    {% section 'drawer-menu' %}
-  </div>
-  <div id="CartDrawer" class="drawer drawer--right drawer--has-fixed-footer">
-    <div class="drawer__fixed-header">
-      <div class="drawer__header">
-        <div class="drawer__title">{{ 'cart.general.title' | t }}</div>
-        <div class="drawer__close">
-          <button type="button" class="icon-fallback-text drawer__close-button js-drawer-close">
-            <span class="icon icon-x" aria-hidden="true"></span>
-            <span class="fallback-text">{{ 'cart.general.close_cart' | t }}</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="drawer__inner">
-      <div id="CartContainer" class="drawer__cart"></div>
-    </div>
-  </div>
-
   <div id="PageContainer" class="page-container">
 
     {% section 'header' %}
 
-    {% if template.name == "index" or page_title == "home" %}
-      {% section 'slideshow' %}
-    {% endif %}
-
-    {% if template.name == "home" %}
-      {% section 'slideshow' %}
+    {% if template.name == "index" %}
+      {% section 'slideshow-landing' %}
     {% endif %}
 
     {% unless template.name == "index" %}
