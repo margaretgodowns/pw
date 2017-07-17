@@ -90,7 +90,7 @@
               <a href="{{ link.url }}" class="site-nav__link">About</a>
             </li>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
-              <div class="list-group social-nav">
+              <div class="list-group social-nav mobile-social-nav">
                 <a class="list-group-item" href="#"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
                 <a class="list-group-item" href="#"><i class="fa fa-pinterest-p fa-fw" aria-hidden="true"></i></a>
                 <a class="list-group-item" href="#"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></a>
@@ -100,7 +100,7 @@
           <!-- //main-nav -->
           <div class="list-group search-cart-nav">
             <a class="list-group-item" href="#"><i class="fa fa-search fa-fw fa-flip-horizontal" aria-hidden="true"></i></a>
-            <a class="fa" href="/cart">Cart (0)</a>
+            <a class="nav-cart" href="/cart">Cart (0)</a>
           </div>
         </div>
       </div>

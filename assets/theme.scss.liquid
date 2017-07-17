@@ -1,6 +1,43 @@
 /*============================================================================
   Brooklyn by Shopify
 ==============================================================================*/
+/* Font Faces */
+@font-face {
+  font-family: 'BaskervilleMTStd-Bold';
+  src: url('{{ "BaskervilleMTStd-Bold.eot" | asset_url }}');
+  src: url('{{ "BaskervilleMTStd-Bold.woff2" | asset_url }}') format('woff2'),
+       url('{{ "BaskervilleMTStd-Bold.woff" | asset_url }}') format('woff'),
+       url('{{ "BaskervilleMTStd-Bold.ttf" | asset_url }}') format('truetype'),
+       url('{{ "BaskervilleMTStd-Bold.svg" | asset_url }}#BaskervilleMTStd-Bold') format('svg'),
+       url('{{ "BaskervilleMTStd-Bold.eot" | asset_url }}?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: 'BaskervilleMTStd-Italic';
+  src: url('BaskervilleMTStd-Italic.eot');
+  src: url('BaskervilleMTStd-Italic.woff2') format('woff2'),
+       url('BaskervilleMTStd-Italic.woff') format('woff'),
+       url('BaskervilleMTStd-Italic.ttf') format('truetype'),
+       url('BaskervilleMTStd-Italic.svg#BaskervilleMTStd-Italic') format('svg'),
+       url('BaskervilleMTStd-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: 'BaskervilleMTStd-Regular';
+  src: url('{{ "BaskervilleMTStd-Regular.eot" | asset_url }}');
+  src: url('{{ "BaskervilleMTStd-Regular.woff2" | asset_url }}') format('woff2'),
+       url('{{ "BaskervilleMTStd-Regular.woff" | asset_url }}') format('woff'),
+       url('{{ "BaskervilleMTStd-Regular.ttf" | asset_url }}') format('truetype'),
+       url('{{ "BaskervilleMTStd-Regular.svg" | asset_url }}#BaskervilleMTStd-Bold') format('svg'),
+       url('{{ "BaskervilleMTStd-Regular.eot" | asset_url }}?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*================ Variables, theme settings, and Sass mixins from Timber ================*/
 /*============================================================================
@@ -2699,6 +2736,7 @@ $slick-opacity-not-active: 0.25;
   white-space: nowrap;
   opacity: 0;
   text-align: center;
+  color: #282904;
   @include display-flexbox();
   @include justify-content(space-between);
   @include flex(1 1 50%);
@@ -2742,15 +2780,17 @@ $slick-opacity-not-active: 0.25;
 }
 
 .site-nav__link {
-  @include accentFontStack;
-  font-size: em(14px);
+  font-family: 'BaskervilleMTStd-Regular';
+  font-size: em(16px);
+  text-transform: uppercase;
+  letter-spacing: .14em;
 
   .is-light & {
     color: #fff;
   }
 
   .is-dark & {
-    color: #000;
+    color: #282904;
   }
 }
 
@@ -3810,6 +3850,11 @@ button.mfp-arrow {
 }
 
 /*================ Custom Pierce & Ward ================*/
+body {
+  font-family: 'BaskervilleMTStd-Regular';
+  text-transform: uppercase;
+}
+
 .nav-wrapper {
   @include display-flexbox();
   @include justify-content(space-between);
@@ -3829,6 +3874,9 @@ button.mfp-arrow {
     position: absolute;
     top: 10px;
     right: $gutter;
+  }
+  a {
+    color: #282904;
   }
 }
 
@@ -3857,6 +3905,16 @@ button.mfp-arrow {
     text-align: center;
     padding-top: 10px;
   }
+  a {
+    color: #282904;
+  }
+}
+
+.mobile-social-nav {
+ display: none;
+ @include at-query($max, $medium) {
+    display: block;
+  } 
 }
 
 .hide-medium-down {
@@ -3899,4 +3957,9 @@ button.mfp-arrow {
 
 .hero-slideshow-landing .slick-dots {
   opacity: 0;
+}
+
+.nav-cart {
+  font-size: em(14px);
+  letter-spacing: .14em;
 }
