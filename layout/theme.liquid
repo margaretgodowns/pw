@@ -95,7 +95,7 @@
 
     {% unless template.name == "index" %}
       <main class="main-content" role="main">
-        {% unless template == "collection.image" %}
+        {% unless template == "collection.image" or template.suffix == "home" %}
           <div class="wrapper">
         {% endunless %}
           {{ content_for_layout }}
@@ -103,10 +103,10 @@
           </div>
         {% endunless %}
       </main>
-
-      <hr class="hr--large">
-
-      {% section 'footer' %}
+      {% unless template.suffix == "home" %}
+        <hr class="hr--large">
+        {% section 'footer' %}
+      {% endunless %}
     {% endunless %}
 
   </div>
