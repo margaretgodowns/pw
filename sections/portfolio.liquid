@@ -1,0 +1,98 @@
+<div>
+  {% for block in section.blocks %}
+  <div class="grid-item" {{ block.shopify_attributes }}>
+    {% case block.type %}
+
+      {% when 'slide' %}
+      {% include 'slideshow-portfolio' %}
+
+    {% endcase %}
+  </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Slideshow Portfolio",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "hero_home_auto",
+        "label": "Auto rotate between slides",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "home_hero_auto_speed",
+        "label": "Slide changes every",
+        "options": [
+          {
+            "value": "5000",
+            "label": "5 seconds"
+          },
+          {
+            "value": "7000",
+            "label": "7 seconds"
+          },
+          {
+            "value": "10000",
+            "label": "10 seconds"
+          }
+        ]
+      }
+    ],
+    "blocks" : [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "slide_text_color",
+            "label": "Text color",
+            "default": "is-dark",
+            "options": [
+              {
+                "value": "is-light",
+                "label": "Light"
+              },
+              {
+                "value": "is-dark",
+                "label": "Dark"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "slide_subheading",
+            "label": "Subheading text",
+            "default": "An introductory"
+          },
+          {
+            "type": "text",
+            "id": "slide_heading",
+            "label": "Heading text",
+            "default": "Hero Banner"
+          },
+          {
+            "type": "text",
+            "id": "slide_cta",
+            "label": "Button text",
+            "default": "Shop now"
+          },
+          {
+            "type": "url",
+            "id": "slide_link",
+            "label": "Slide link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
