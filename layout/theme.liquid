@@ -34,6 +34,9 @@
   {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   {% include 'google-fonts' %}
 
+  <!-- Font Awesome ================================================== -->
+  <script src="https://use.fontawesome.com/7a6365e5d6.js"></script>
+
   <!-- Sections ================================================== -->
   <script>
     window.theme = window.theme || {};
@@ -54,6 +57,9 @@
 
   <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'theme.js' | asset_url }}" defer="defer"></script><!--<![endif]-->
   <!--[if lte IE 9]><script src="{{ 'theme.js' | asset_url }}"></script><![endif]-->
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'pw.js' | asset_url }}" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="{{ 'pw.js' | asset_url }}"></script><![endif]-->
 
   <!-- Header hook for plugins ================================================== -->
   {{ content_for_header }}
@@ -76,37 +82,20 @@
 {% endcomment %}
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}">
 
-  <div id="NavDrawer" class="drawer drawer--left">
-    {% section 'drawer-menu' %}
-  </div>
-  <div id="CartDrawer" class="drawer drawer--right drawer--has-fixed-footer">
-    <div class="drawer__fixed-header">
-      <div class="drawer__header">
-        <div class="drawer__title">{{ 'cart.general.title' | t }}</div>
-        <div class="drawer__close">
-          <button type="button" class="icon-fallback-text drawer__close-button js-drawer-close">
-            <span class="icon icon-x" aria-hidden="true"></span>
-            <span class="fallback-text">{{ 'cart.general.close_cart' | t }}</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="drawer__inner">
-      <div id="CartContainer" class="drawer__cart"></div>
-    </div>
-  </div>
-
   <div id="PageContainer" class="page-container">
-
-    {% section 'header' %}
+    
+    {% unless template.name == "index" or template.suffix == "portfolio" %}    
+      {% section 'header' %}
+    {% endunless %}  
 
     {% if template.name == "index" %}
-      {% section 'slideshow' %}
+      {% section 'branded-overlay' %}
+      {% section 'slideshow-landing' %}
     {% endif %}
 
     {% unless template.name == "index" %}
       <main class="main-content" role="main">
-        {% unless template == "collection.image" %}
+        {% unless template == "collection.image" or template.suffix == "home" or template.suffix == "portfolio" %}
           <div class="wrapper">
         {% endunless %}
           {{ content_for_layout }}
@@ -114,10 +103,10 @@
           </div>
         {% endunless %}
       </main>
-
-      <hr class="hr--large">
-
-      {% section 'footer' %}
+      {% unless template.suffix == "home" or template.suffix == "portfolio" %}
+        <hr class="hr--large">
+        {% section 'footer' %}
+      {% endunless %}
     {% endunless %}
 
   </div>

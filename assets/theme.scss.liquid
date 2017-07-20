@@ -1,6 +1,43 @@
 /*============================================================================
   Brooklyn by Shopify
 ==============================================================================*/
+/* Font Faces */
+@font-face {
+  font-family: 'BaskervilleMTStd-Bold';
+  src: url('{{ "BaskervilleMTStd-Bold.eot" | asset_url }}');
+  src: url('{{ "BaskervilleMTStd-Bold.woff2" | asset_url }}') format('woff2'),
+       url('{{ "BaskervilleMTStd-Bold.woff" | asset_url }}') format('woff'),
+       url('{{ "BaskervilleMTStd-Bold.ttf" | asset_url }}') format('truetype'),
+       url('{{ "BaskervilleMTStd-Bold.svg" | asset_url }}#BaskervilleMTStd-Bold') format('svg'),
+       url('{{ "BaskervilleMTStd-Bold.eot" | asset_url }}?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: 'BaskervilleMTStd-Italic';
+  src: url('BaskervilleMTStd-Italic.eot');
+  src: url('BaskervilleMTStd-Italic.woff2') format('woff2'),
+       url('BaskervilleMTStd-Italic.woff') format('woff'),
+       url('BaskervilleMTStd-Italic.ttf') format('truetype'),
+       url('BaskervilleMTStd-Italic.svg#BaskervilleMTStd-Italic') format('svg'),
+       url('BaskervilleMTStd-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+@font-face {
+  font-family: 'BaskervilleMTStd-Regular';
+  src: url('{{ "BaskervilleMTStd-Regular.eot" | asset_url }}');
+  src: url('{{ "BaskervilleMTStd-Regular.woff2" | asset_url }}') format('woff2'),
+       url('{{ "BaskervilleMTStd-Regular.woff" | asset_url }}') format('woff'),
+       url('{{ "BaskervilleMTStd-Regular.ttf" | asset_url }}') format('truetype'),
+       url('{{ "BaskervilleMTStd-Regular.svg" | asset_url }}#BaskervilleMTStd-Bold') format('svg'),
+       url('{{ "BaskervilleMTStd-Regular.eot" | asset_url }}?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /*================ Variables, theme settings, and Sass mixins from Timber ================*/
 /*============================================================================
@@ -287,9 +324,10 @@ $max: max-width;
 $viewportIncrement: 1px;
 $siteWidth: 1050px;
 $small: 590px;
-$medium: 768px;
-$large: 769px;
-$xlarge: $siteWidth + $viewportIncrement;
+$smallMedium: 720px;
+$medium: 1024px;
+$large: 1280px;
+$xlarge: 1440px;
 
 $postSmall: $small + $viewportIncrement;
 $preMedium: $medium - $viewportIncrement;
@@ -2152,7 +2190,7 @@ $shareCountBg: $colorBody;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: 100% 30%;
+    object-position: 50% 50%;
     // Used for the IE lazysizes object-fit polyfill
     font-family: "object-fit: cover";
 
@@ -2266,7 +2304,6 @@ $shareCountBg: $colorBody;
   top: 0;
   left: 0;
   right: 0;
-  opacity: 0;
   z-index: $zindexHeroHeader;
 }
 
@@ -2696,8 +2733,35 @@ $slick-opacity-not-active: 0.25;
 
 /*================ Nav Links ================*/
 .site-nav {
+  background-color: #ffffff;
   white-space: nowrap;
   opacity: 0;
+  text-align: center;
+  color: #282904;
+  @include display-flexbox();
+  @include justify-content(space-between);
+  @include flex(1 1 50%);
+  align-items: center;
+  font-size: 16px;
+  @include at-query($max, $medium) {
+    @include justify-content(center);
+    @include flex-direction(column);
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+    overflow:scroll;
+    -webkit-overflow-scrolling:touch;
+    position:fixed;
+    z-index:4;
+    left:0px;
+    top:-100%;
+    transform:translateY(0%);
+    transition:450ms ease-in-out !important;
+    background-color: rbga(0, 0, 0, 0.5);
+    &.visible {
+      transform:translateY(100%);
+    }
+  }
 
   .no-js &,
   &.site-nav--init {
@@ -2710,16 +2774,24 @@ $slick-opacity-not-active: 0.25;
   white-space: normal;
 }
 
+.site-nav__item {
+  @include at-query($max, $medium) {
+    
+  }
+}
+
 .site-nav__link {
-  @include accentFontStack;
+  font-family: 'BaskervilleMTStd-Regular';
   font-size: em(14px);
+  text-transform: uppercase;
+  letter-spacing: .14em;
 
   .is-light & {
     color: #fff;
   }
 
   .is-dark & {
-    color: #000;
+    color: #282904;
   }
 }
 
@@ -3778,4 +3850,140 @@ button.mfp-arrow {
   }
 }
 
+/*================ Custom Pierce & Ward ================*/
+body {
+  font-family: 'BaskervilleMTStd-Regular';
+  text-transform: uppercase;
+}
 
+.nav-wrapper {
+  @include display-flexbox();
+  @include justify-content(space-between);
+  @include at-query($max, $medium) {
+    @include flex-direction(column);
+    // padding: 0 0 10px 0;
+  }
+}
+
+.list-group {
+  @include flex(1 1 10%);
+}
+
+
+.social-nav {
+  @include at-query($max, $medium) {
+    text-align: center;
+    padding-top: 10px;
+  }
+  a {
+    color: #282904;
+    font-size: 16px !important;
+  }
+}
+
+.mobile-social-nav {
+ display: none;
+ @include at-query($max, $medium) {
+    display: block;
+  } 
+}
+
+.search-cart-nav {
+  text-align: right;
+  @include at-query($max, $medium) {
+    position: absolute;
+    top: 10px;
+    right: $gutter;
+  }
+  a {
+    color: #282904;
+    font-size: em(12px);
+    letter-spacing: .14em;
+  }
+}
+
+.mobile-logo {
+  display: none;
+  background-color: #ffffff;
+  z-index: 6;
+  @include at-query($max, $medium) {
+    display: block;
+    z-index: 5;
+  }
+}
+
+.desktop-logo {
+  @include at-query($max, $medium) {
+    display: none;
+  }
+}
+
+/*================ Helpers ================*/
+.hide-medium-down {
+  @include at-query($max, $medium) {
+    display: none;
+  }
+}
+
+/*================ Index Template Styles ================*/
+.template-index,
+#home {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+#shopify-section-branded-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  z-index: 10;
+  img {
+    width: 215px;
+    z-index: 11;
+    margin-top: 10px;
+  }
+  .social-nav {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    a {
+      z-index: 11;
+      cursor: pointer;
+      transition: .2s ease-out;
+      &:hover {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.muted-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  opacity: .2;
+  cursor: pointer;
+}
+
+.hero-slideshow-landing .slick-dots {
+  opacity: 0;
+}
+
+
+/*================ Home Specfic Styles ================*/
+#home {
+  .hero__image {
+    @media screen and (min-width: 1200px) {
+      object-position: 50% 20%;
+    }
+    @media screen and(max-width: 850px) {
+      object-position: 90% 50%; 
+    }
+  }
+}

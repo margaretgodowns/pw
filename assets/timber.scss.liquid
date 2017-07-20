@@ -521,15 +521,6 @@ body {
 
 .main-content {
   display: block;
-  padding-top: $contentTopMarginSmall;
-
-  @include at-query($min, $postSmall) {
-    padding-bottom: 40px;
-  }
-
-  @include at-query($min, $large) {
-    padding-top: $contentTopMargin;
-  }
 }
 
 hr {
@@ -2332,7 +2323,7 @@ $socialIconFontStack: 'icons';
 
 /*================ Module | Site Header ================*/
 .site-header {
-  padding: ($gutter / 2) 0 0;
+  padding: 10px 0;
   background-color: #ffffff;
 
   .grid--table {
