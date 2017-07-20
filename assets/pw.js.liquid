@@ -51,6 +51,7 @@ var myAppJavaScript = function($){
   var mobileLogo = $('.mobile-logo');
   var navOpen = false;
   
+  /*Mobile Nav*/
   mobileLogo.click(function() {
       if (!navOpen) {
         $('.site-nav').addClass('visible');
@@ -61,9 +62,13 @@ var myAppJavaScript = function($){
       }
   })
 
+  /*Go to home page when clicking anywhere on landing page*/
   $('.muted-overlay').click(function() {
-      window.location.href = "/pages/home";
-    })
+    window.location.href = "/pages/home";
+  });
+
+  /*Manipulate individual sliders*/
+  
 };
 
 /* If jQuery has not yet been loaded or if it has but it's too old for our needs,

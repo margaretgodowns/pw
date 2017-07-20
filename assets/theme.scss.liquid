@@ -2524,9 +2524,9 @@ $slick-opacity-not-active: 0.25;
     right: -25px;
   }
   &:before {
-    content: $slick-prev-character;
+    content: url({{ 'left_arrow.png' | asset_url }});
     [dir="rtl"] & {
-      content: $slick-next-character;
+      content: url({{ 'left_arrow.png' | asset_url }});
     }
   }
 }
@@ -2537,9 +2537,9 @@ $slick-opacity-not-active: 0.25;
     right: auto;
   }
   &:before {
-    content: $slick-next-character;
+    content: url({{ 'right_arrow.png' | asset_url }});
     [dir="rtl"] & {
-      content: $slick-prev-character;
+      content: url({{ 'right_arrow.png' | asset_url }});
     }
   }
 }
@@ -3945,7 +3945,8 @@ body {
 
 /*================ Index Template Styles ================*/
 .template-index,
-#home {
+#home,
+#portfolio {
   max-height: 100vh;
   overflow: hidden;
 }

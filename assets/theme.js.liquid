@@ -1593,14 +1593,11 @@ var slickTheme = (function(module, $) {
      *   - https://github.com/kenwheeler/slick/#options
      */
     settings.$element.slick({
-      arrows         : settings.arrows,
-      dots           : settings.dots,
       adaptiveHeight : settings.fullscreen ? false : settings.adaptiveHeight,
       draggable      : false,
       fade           : true,
       //autoplay       : theme.strings.slickAuto,
       //autoplaySpeed  : theme.strings.slickAutoSpeed,
-      autoplay       : slickTheme.cache.$hero.data('autoplay'),
       autoplaySpeed  : slickTheme.cache.$hero.data('autoplayspeed'),
       onInit         : this.onInit,
       onBeforeChange : this.beforeChange,
@@ -2304,12 +2301,14 @@ theme.SlideshowSection = (function() {
     //var autoplay = $(this.slideshow).attr('data-autoplayspeed');
 
     slickTheme.init({
-      $element     : $(slideshow),
+      $element     : $('.hero-slideshow-landing'),
       fullscreen   : $(slideshow).data('fullscreen'),
       parallax     : $(slideshow).data('parallax'),
       autoplay       : $(slideshow).data('autoplay'),
       autoplaySpeed  : $(slideshow).data('autoplayspeed')
     });
+
+    console.log(slideshow);
 
     // remove header absolute display if slideshow is empty
     if (!$(this.slideshow).hasClass('hero')) {
