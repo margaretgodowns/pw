@@ -14,7 +14,7 @@
 
 <div data-section-id="{{ section.id }}" data-section-type="slideshow-section">
   {% if section.blocks.size > 0 %}
-    <div class="hero-{{ section.id }} hero{% if hero_full_height %} hero--full-height{% endif %} hero--first" id="Hero"{% if hero_full_height %} data-fullscreen="true"{% endif %}{% if hero_parallax %}data-parallax="true"{% endif %} data-autoplay="{{ section.settings.hero_home_auto }}" data-autoplayspeed="{{ section.settings.home_hero_auto_speed }}">
+    <div class="hero-{{ section.id }} hero{% if hero_full_height %} hero--full-height{% endif %} hero--first" id="Hero-Portfolio"{% if hero_full_height %} data-fullscreen="true"{% endif %}{% if hero_parallax %}data-parallax="true"{% endif %} data-autoplay="{{ section.settings.hero_home_auto }}" data-autoplayspeed="{{ section.settings.home_hero_auto_speed }}">
       {% for block in section.blocks %}
 
           <div class="hero__slide {{ block.settings.slide_text_color }} slide--{{ block.id }}{% if block.settings.image == blank %} slide--placeholder{% endif %}" data-color="{{ block.settings.slide_text_color }}" {{ block.shopify_attributes }}>
