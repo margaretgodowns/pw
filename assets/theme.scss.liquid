@@ -14,7 +14,7 @@
   font-style: normal;
 }
 
-/*@font-face {
+@font-face {
   font-family: 'BaskervilleMTStd-Italic';
   src: url('BaskervilleMTStd-Italic.eot');
   src: url('BaskervilleMTStd-Italic.woff2') format('woff2'),
@@ -25,7 +25,7 @@
   font-weight: normal;
   font-style: normal;
 }
-*/
+
 @font-face {
   font-family: 'BaskervilleMTStd-Regular';
   src: url('{{ "BaskervilleMTStd-Regular.eot" | asset_url }}');
@@ -35,6 +35,17 @@
        url('{{ "BaskervilleMTStd-Regular.svg" | asset_url }}#BaskervilleMTStd-Bold') format('svg'),
        url('{{ "BaskervilleMTStd-Regular.eot" | asset_url }}?#iefix') format('embedded-opentype');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima_Nova_Sbold';
+  src: url('{{ "Proxima_Nova_Sbold.eot" | asset_url }}');
+  src: url('{{ "Proxima_Nova_Sbold.woff" | asset_url }}') format('woff'),
+       url('{{ "Proxima_Nova_Sbold.ttf" | asset_url }}') format('truetype'),
+       url('{{ "Proxima_Nova_Sbold.svg" | asset_url }}#BaskervilleMTStd-Bold') format('svg'),
+       url('{{ "Proxima_Nova_Sbold.eot" | asset_url }}?#iefix') format('embedded-opentype');
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -2781,8 +2792,8 @@ $slick-opacity-not-active: 0.25;
 }
 
 .site-nav__link {
-  font-family: 'BaskervilleMTStd-Regular';
-  font-size: em(14px);
+  font-family: 'Proxima_Nova_Sbold';
+  font-size: em(16px);
   text-transform: uppercase;
   letter-spacing: .14em;
 
@@ -3852,7 +3863,7 @@ button.mfp-arrow {
 
 /*================ Custom Pierce & Ward ================*/
 body {
-  font-family: 'BaskervilleMTStd-Regular';
+  font-family: 'Proxima_Nova_Sbold';
   text-transform: uppercase;
 }
 
@@ -3897,7 +3908,7 @@ body {
   }
   a {
     color: #282904;
-    font-size: em(12px);
+    font-size: em(14px);
     letter-spacing: .14em;
   }
 }
@@ -3922,6 +3933,13 @@ body {
 .hide-medium-down {
   @include at-query($max, $medium) {
     display: none;
+  }
+}
+
+.hide-medium-up {
+  display: none;
+  @include at-query($max, $medium) {
+    display: block;
   }
 }
 

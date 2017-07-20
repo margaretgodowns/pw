@@ -70,8 +70,12 @@
             </h1>
           </div>
           <ul class="site-nav" id="AccessibleNav">
+            <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%} hide-medium-up">
+              <a href="/pages/home" class="site-nav__link">Home</a>
+            </li>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="/pages/portfolio" class="site-nav__link">Portfolio</a>
+            </li>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="/products" class="site-nav__link">Shop</a>
             </li>
@@ -89,6 +93,11 @@
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <a href="{{ link.url }}" class="site-nav__link">About</a>
             </li>
+            <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%} hide-medium-up">
+              <a href="/cart" class="site-nav__link site-nav__link--icon cart-link js-drawer-open-right" aria-controls="CartDrawer" aria-expanded="false">
+                <span href="/cart">Cart ({{ cart.item_count }})</span>
+              </a>
+            </li>
             <li class="site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
               <div class="list-group social-nav mobile-social-nav">
                 <a class="list-group-item" href="#"><i class="fa fa-instagram fa-fw" aria-hidden="true"></i></a>
@@ -99,8 +108,15 @@
           </ul>
           <!-- //main-nav -->
           <div class="list-group search-cart-nav">
-            <a class="list-group-item" href="#"><i class="fa fa-search fa-fw fa-flip-horizontal" aria-hidden="true"></i></a>
-            <a href="/cart">Cart (0)</a>
+            <a href="/search" class="site-nav__link site-nav__link--icon js-toggle-search-modal" data-mfp-src="#SearchModal">
+              <span class="icon-fallback-text">
+                <span class="icon icon-search" aria-hidden="true"></span>
+                <span class="fallback-text">Search</span>
+              </span>
+            </a>
+            <a href="/cart" class="site-nav__link site-nav__link--icon cart-link js-drawer-open-right" aria-controls="CartDrawer" aria-expanded="false">
+              <span href="/cart">Cart ({{ cart.item_count }})</span>
+            </a>
           </div>
         </div>
       </div>
