@@ -1820,10 +1820,9 @@ var slickThemePortfolio = (function(module, $) {
      */
     settings.$element.slick({
       arrows         : true,
-      dots           : settings.dots,
-      adaptiveHeight : settings.fullscreen ? false : settings.adaptiveHeight,
-      draggable      : false,
-      fade           : true,
+      dots           : false,
+      adaptiveHeight : true,
+      draggable      : true,
       //autoplay       : theme.strings.slickAuto,
       //autoplaySpeed  : theme.strings.slickAutoSpeed,
       autoplay       : slickThemePortfolio.cache.$hero.data('autoplay'),
