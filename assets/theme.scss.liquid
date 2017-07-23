@@ -3998,6 +3998,8 @@ body {
 
 /*================ Home Specfic Styles ================*/
 #home {
+  max-width: 1400px;
+  margin: 0 auto;
   .hero__image {
     @media screen and (min-width: 1200px) {
       object-position: 50% 20%;
@@ -4009,6 +4011,10 @@ body {
 }
 
 /*================ Portfolio Specfic Styles ================*/
+ #portfolio {
+  background-color: #282904;
+ }
+
  #shopify-section-portfolio-overlay {
   position: absolute;
   width: 100%;
@@ -4017,10 +4023,13 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  img {
-    width: 215px;
+  a {
     z-index: 11;
-    margin-top: 10px;
+  }
+  img {
+    width: auto;
+    max-width: 75px;
+    margin-top: 50px;
   }
   .social-nav {
     height: 100%;
@@ -4031,6 +4040,7 @@ body {
       z-index: 11;
       cursor: pointer;
       transition: .2s ease-out;
+      color: #ffffff;
       &:hover {
         margin-bottom: 5px;
       }
@@ -4038,9 +4048,19 @@ body {
   }
 } 
 
-.hero-slideshow-portfolio hero {
-  .hero__image img {
+#portfolio .wrapper {
+  max-width: 1220px;
+}
+
+/*This is technically just for the Portfolio page but so far it has not messed anything up*/
+.hero--full-height .hero__image {
+    height: 100%;
     width: auto;
-    height: 100vh;
-  }
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin: 0 auto;
+}
+
+#portfolio .hero__slide.is-dark {
+  background-color: #282904;
 }

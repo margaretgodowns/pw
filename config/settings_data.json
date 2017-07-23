@@ -232,16 +232,36 @@
               "slide_cta": "",
               "slide_link": ""
             }
+          },
+          "1500822352406": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9428_ddd0aa94-1a59-485d-9ab3-f8823d243986.jpg",
+              "slide_text_color": "is-dark",
+              "slide_subheading": "",
+              "slide_heading": "",
+              "slide_cta": "",
+              "slide_link": ""
+            }
           }
         },
         "block_order": [
           "1500421434012",
-          "1500421446932"
+          "1500421446932",
+          "1500822352406"
         ],
         "settings": {
           "hero_home_auto": true,
           "home_hero_auto_speed": "5000"
         }
+      },
+      "branded-overlay": {
+        "type": "branded-overlay",
+        "settings": {}
+      },
+      "portfolio-overlay": {
+        "type": "portfolio-overlay",
+        "settings": {}
       }
     },
     "content_for_index": []
