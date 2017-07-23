@@ -2118,7 +2118,7 @@ theme.Product = (function() {
       self.zoomType = $container.data('image-zoom-type');
 
       if (!$('html').hasClass('lt-ie9')) {
-        enquire.register(theme.variables.mediaQuerySmall, {
+        enquire.register(theme.variables.mediaQuerySmallUp, {
           match: function() {
             self.createImageCarousel();
             if (self.zoomType) {
@@ -2646,6 +2646,7 @@ theme.variables = {
   productPageSticky   : true,
 
   // Breakpoints from src/stylesheets/global/variables.scss.liquid
+  mediaQuerySmallUp   : 'screen and (min-width: 200px)',
   mediaQuerySmall     : 'screen and (max-width: 590px)',
   mediaQueryMedium    : 'screen and (min-width: 591px) and (max-width: 768px)',
   mediaQueryMediumUp  : 'screen and (min-width: 591px)',
@@ -2730,7 +2731,7 @@ theme.backButton = function() {
 
 theme.setBreakpoints = function() {
   if(!theme.cache.$html.hasClass('lt-ie9')) {
-    enquire.register(theme.variables.mediaQuerySmall, {
+    enquire.register(theme.variables.mediaQuerySmallUp, {
       match: function() {
         if (theme.settings.gridType === 'collage') {
           theme.clearCollageGridHeights();
