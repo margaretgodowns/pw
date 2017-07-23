@@ -38,6 +38,8 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
+    "share_instagram": true,
+    "share_email": true,
     "favicon": "",
     "checkout_header_image": "",
     "checkout_logo_image": "",
@@ -262,6 +264,14 @@
       "portfolio-overlay": {
         "type": "portfolio-overlay",
         "settings": {}
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "zoom_enable": false,
+          "social_sharing_products": true,
+          "product_vendor_enable": false
+        }
       }
     },
     "content_for_index": []

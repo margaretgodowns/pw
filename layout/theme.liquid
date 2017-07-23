@@ -118,7 +118,7 @@
           </div>
         {% endunless %}
       </main>
-      {% unless template.suffix == "home" or template.suffix == "portfolio" %}
+      {% unless template.suffix == "home" or template.suffix == "portfolio"  or template.name == "product" %}
         <hr class="hr--large">
         {% section 'footer' %}
       {% endunless %}

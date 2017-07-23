@@ -943,6 +943,16 @@
         "type": "checkbox",
         "id": "share_pinterest",
         "label": "Pin on Pinterest"
+      },
+      {
+        "type": "checkbox",
+        "id": "share_instagram",
+        "label": "Share on Instagram"
+      },
+      {
+        "type": "checkbox",
+        "id": "share_email",
+        "label": "Share on Email"
       }
     ]
   },
