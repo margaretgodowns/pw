@@ -131,10 +131,20 @@
               {{ current_variant.price | money }}
             </span>
 
-            <hr class="hr--small">
+
+            <div class="product-single__description rte" itemprop="description">
+              {{ product.description }}
+            </div>
 
             <meta itemprop="priceCurrency" content="{{ shop.currency }}">
             <link itemprop="availability" href="http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}">
+
+            <select id="quantity" name="quantity">
+                <option value="" disabled selected>Quantity</option>
+              {% for i in (1..10) %}
+                <option value="{{ i }}">{{ i }}</option>
+              {% endfor %}
+            </select>
 
             <form action="/cart/add" method="post" enctype="multipart/form-data" class="product-single__form" id="AddToCartForm">
               {% unless product.options.size == 1 and product.variants[0].title == 'Default Title' %}
@@ -207,10 +217,6 @@
               </div>
             </form>
 
-          </div>
-
-          <div class="product-single__description rte" itemprop="description">
-            {{ product.description }}
           </div>
 
           {% if section.settings.social_sharing_products %}
