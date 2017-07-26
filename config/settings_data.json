@@ -68,7 +68,7 @@
         "type": "header",
         "settings": {
           "main_menu_link_list": "main-menu",
-          "logo": "shopify:\/\/shop_images\/LOGO.png",
+          "logo": "shopify:\/\/shop_images\/logo-green.png",
           "logo-inverted": "",
           "logo_max_width": "60",
           "search": "modal",
