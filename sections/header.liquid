@@ -63,6 +63,9 @@
             <a class="list-group-item" href="#"><i class="fa fa-envelope-o fa-fw fa-nav" aria-hidden="true"></i></a>
           </div>
           <!-- begin main-nav -->
+          <div class="nav-trigger">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+          </div>
           <div class="logo mobile-logo site-nav__item site-nav__expanded-item{% unless template.name == 'index' %}{% if link.active %} site-nav--active{% endif %}{% endunless%}">
             <h1 class="site-header__logo" itemscope itemtype="http://schema.org/Organization">
               <img src="{{ section.settings.logo | img_url: image_size }}" srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.logo.alt | default: shop.name }}"

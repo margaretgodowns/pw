@@ -48,11 +48,11 @@ var myAppJavaScript = function($){
   // $ in this scope references the jQuery object we'll use.
   // Don't use jQuery, or jQuery191, use the dollar sign.
   // Do this and do that, using $.
-  var mobileLogo = $('.mobile-logo');
+  var navTrigger = $('.nav-trigger');
   var navOpen = false;
   
   /*Mobile Nav*/
-  mobileLogo.click(function() {
+  navTrigger.click(function() {
       if (!navOpen) {
         $('.site-nav').addClass('visible');
         navOpen = true;

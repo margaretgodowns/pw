@@ -3935,13 +3935,34 @@ body {
   }
 }
 
-.mobile-logo {
+.mobile-logo,
+.nav-trigger {
   display: none;
   background-color: #ffffff;
   z-index: 6;
   @include at-query($max, $medium) {
     display: block;
+
+  }
+}
+
+.mobile-logo {
+  z-index: 6;
+  @include at-query($max, $medium) {
     z-index: 5;
+  }
+}
+
+.nav-trigger {
+  position: absolute;
+  z-index: 7;
+  top: 28px;
+  left: 15px;
+  &:hover {
+    cursor: pointer;
+  }
+  .fa {
+    color: #C69E6A;
   }
 }
 
@@ -3966,6 +3987,12 @@ body {
 }
 
 /*================ Index Template Styles ================*/
+body,
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .template-index,
 #home {
   max-height: 100vh;
@@ -3981,10 +4008,15 @@ body {
   text-align: center;
   align-items: center;
   z-index: 10;
+  left: 0;
+  top: 0;
   img {
     width: 215px;
     z-index: 11;
-    margin-top: 10px;
+    margin-top: 30px;
+    @include at-query($max, $small) {
+      width: 160px;
+    }
   }
   .social-nav {
     height: 100%;
@@ -4009,6 +4041,8 @@ body {
   background-color: white;
   opacity: .2;
   cursor: pointer;
+  left: 0;
+  top: 0;
 }
 
 .hero-slideshow-landing .slick-dots {
@@ -4018,14 +4052,12 @@ body {
 
 /*================ Home Specfic Styles ================*/
 #home {
-  max-width: 1400px;
-  margin: 0 auto;
   .hero__image {
     @media screen and (min-width: 1200px) {
       object-position: 50% 20%;
     }
     @media screen and(max-width: 850px) {
-      object-position: 90% 50%; 
+      object-position: 75% 50%; 
     }
   }
 }
@@ -4073,7 +4105,8 @@ body {
 }
 
 /*This is technically just for the Portfolio page but so far it has not messed anything up*/
-.hero--full-height .hero__image {
+
+#portfolio .hero--full-height .hero__image {
     height: 100%;
     width: auto;
     object-fit: cover;

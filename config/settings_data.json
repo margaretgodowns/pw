@@ -165,22 +165,10 @@
               "slide_cta": "",
               "slide_link": ""
             }
-          },
-          "1500238544138": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/slideshow_landing_2.jpg",
-              "slide_text_color": "is-dark",
-              "slide_subheading": "",
-              "slide_heading": "",
-              "slide_cta": "",
-              "slide_link": ""
-            }
           }
         },
         "block_order": [
-          "1500238527161",
-          "1500238544138"
+          "1500238527161"
         ],
         "settings": {
           "hero_home_auto": true,
