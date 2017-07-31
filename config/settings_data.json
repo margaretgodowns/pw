@@ -84,7 +84,7 @@
         "type": "featured-products",
         "settings": {
           "title": "Featured collection",
-          "home_featured_products": "frontpage",
+          "home_featured_products": "",
           "collection_products_grid": "collage"
         }
       },
@@ -205,40 +205,268 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/EBP2443_984e8ea7-d477-47a6-a35a-37e806d950fa.jpg",
-              "slide_text_color": "is-dark",
-              "slide_subheading": "",
-              "slide_heading": "",
-              "slide_cta": "",
-              "slide_link": ""
+              "slide_text_color": "is-dark"
             }
           },
           "1500421446932": {
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/EBP2802.jpg",
-              "slide_text_color": "is-dark",
-              "slide_subheading": "",
-              "slide_heading": "",
-              "slide_cta": "",
-              "slide_link": ""
+              "slide_text_color": "is-dark"
             }
           },
           "1500822352406": {
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/IMG_9428_ddd0aa94-1a59-485d-9ab3-f8823d243986.jpg",
-              "slide_text_color": "is-dark",
-              "slide_subheading": "",
-              "slide_heading": "",
-              "slide_cta": "",
-              "slide_link": ""
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457353542": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_026.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457389497": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457696218": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9626.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457790731": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457882173": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9445.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457906325": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9460.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457927248": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9478.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457949196": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9487.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457970398": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9488.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457992420": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9509.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458073787": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9512.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458092679": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9514.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458100916": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9528.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458107941": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9537.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458115852": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9546.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458122508": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9558.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458130804": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9576.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458137952": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9619.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458145459": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9626_e23b0f07-f731-4b69-aeb9-a1fe117a0814.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458152276": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477_48f121ca-9a0e-4db9-b8d9-f98238207243.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458160140": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_026_916c6741-3cef-49aa-8632-46d59c347ff2.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458168693": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_627.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458178128": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_641.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458186373": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_751.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458193268": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_828.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458202363": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PE-Proofs-0016.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458258517": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PE-Proofs-0031.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458265622": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PW-Foyer.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458272854": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PW-Master.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458282250": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PW-Powder-Room.jpg",
+              "slide_text_color": "is-dark"
             }
           }
         },
         "block_order": [
           "1500421434012",
           "1500421446932",
-          "1500822352406"
+          "1500822352406",
+          "1501457353542",
+          "1501457696218",
+          "1501457389497",
+          "1501457790731",
+          "1501457882173",
+          "1501457906325",
+          "1501457927248",
+          "1501457949196",
+          "1501457970398",
+          "1501457992420",
+          "1501458073787",
+          "1501458092679",
+          "1501458100916",
+          "1501458107941",
+          "1501458115852",
+          "1501458122508",
+          "1501458130804",
+          "1501458137952",
+          "1501458145459",
+          "1501458152276",
+          "1501458160140",
+          "1501458168693",
+          "1501458178128",
+          "1501458186373",
+          "1501458193268",
+          "1501458202363",
+          "1501458258517",
+          "1501458265622",
+          "1501458272854",
+          "1501458282250"
         ],
         "settings": {
           "hero_home_auto": true,
@@ -258,6 +486,142 @@
         "settings": {
           "zoom_enable": false,
           "social_sharing_products": true,
+          "product_vendor_enable": false
+        }
+      },
+      "about-hero-image": {
+        "type": "about-hero-image",
+        "settings": {
+          "hero-image-about": "shopify:\/\/shop_images\/pierce_ward_about_f2ca446e-7e1e-4866-bfe1-0f3499cb7fb7.jpg"
+        }
+      },
+      "about-text": {
+        "type": "about-text",
+        "settings": {
+          "about-text": "As snow fell on New York City in the winter of 2012, two kindred spirits would join forces in the warm, wood paneled underbelly of an East Village bar. Louisa Pierce spied an impish beauty whose spirit and zest flowed freer than the whiskey that was keeping warm the rock and roll remnants of recent past and the It Girls of tomorrow. Emily Ward returned her gaze and they soon bonded over their love of Art Deco lines that swooped over the crush of peacock velvet into the swish of a floral drape only to be stopped dead in its tracks by the stark cool of a brass lamp. They knew that the senses should be shaken and not stirred.  \n<br><br>\nThey knew that chic should never be shabby. They knew that glamour was essential but never at the cost of comfort. They knew instinctively that romances could be made richer, inspirations clearer, and futures brighter if surrounded by undeniable beauty. These mottos swirled and swelled into a style that transcended eclectic into an electric collective!  \n<br><br>\nThey packed their things and relocated to the Deep South. The drowsy drawl of Nashville, Tennessee went quiet as they scoured and pillaged every imaginable vendor in search of chandeliers that shimmered with delicate magic, kaleidoscope carpets, heavy with history, marble that was smooth to palm and cool to the cheek, and wood that whispered that it was born long before you. They built worlds around themselves that charged the imagination and planted seeds of lust in the hearts of their visitors. It wasn’t long before a porcelain skinned, flame haired beauty declared it only right that they delve into her heart and manifest her essence into the home that surrounded her.  \n<br><br>\nA gentleman of Southern Royalty with a wife so lovely and rare that she could only be named after a flower called upon them to ignite their kingdom with casual elegance and gentle grandeur. They smoothed the raucous edges of a bluesy drummer’s soul and gave him a serene haven from his life on the road. They gave a manic maker of film and art a place to create, combust, and refuel."
+        }
+      },
+      "about-clients": {
+        "type": "about-clients",
+        "blocks": {
+          "1501292132411": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Karen Elson"
+            }
+          },
+          "1501292140204": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Rachel Korine"
+            }
+          },
+          "1501292426085": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Dakota Johnson"
+            }
+          },
+          "1501292435366": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Aaron & Sam Taylor-Johnson"
+            }
+          },
+          "1501292444581": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Caleb Followill"
+            }
+          },
+          "1501292460815": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Leonardo DiCaprio"
+            }
+          },
+          "1501292471896": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Patrick Carney"
+            }
+          },
+          "1501292483946": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Colin & Samantha Hanks"
+            }
+          },
+          "1501292493072": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Lily Aldridge"
+            }
+          },
+          "1501292501238": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Brie Larson"
+            }
+          },
+          "1501292510149": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Harmony Korine"
+            }
+          },
+          "1501292520758": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Jennifer Meyer"
+            }
+          },
+          "1501292529085": {
+            "type": "text",
+            "settings": {
+              "about-client-text": "Miles Teller"
+            }
+          }
+        },
+        "block_order": [
+          "1501292132411",
+          "1501292140204",
+          "1501292426085",
+          "1501292435366",
+          "1501292444581",
+          "1501292460815",
+          "1501292471896",
+          "1501292483946",
+          "1501292493072",
+          "1501292501238",
+          "1501292510149",
+          "1501292520758",
+          "1501292529085"
+        ],
+        "settings": {}
+      },
+      "about-quote": {
+        "type": "about-quote",
+        "settings": {
+          "about-quote": "Our rooms aren't overly pretty. They're a little dark, \u0003a little weird. And that's what makes them interesting."
+        }
+      },
+      "shop-header": {
+        "type": "shop-header",
+        "settings": {}
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "collection_products_grid": "collage",
+          "collection_tags_enable": true,
           "product_vendor_enable": false
         }
       }
@@ -470,8 +834,8 @@
           "type": "collection-template",
           "settings": {
             "collection_products_grid": "grid",
-            "collection_tags_enable": false,
-            "product_vendor_enable": false
+            "collection_tags_enable": true,
+            "product_vendor_enable": true
           }
         },
         "1494860348200": {
