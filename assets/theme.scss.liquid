@@ -4206,6 +4206,7 @@ select::-ms-expand {
   }
   .short-hr {
     border-width: 3px 0 0 0;
+    text-align: left;
   }
   .full-hr {
     width: 100%;
@@ -4242,6 +4243,12 @@ select::-ms-expand {
     font-family: 'Proxima_Nova_Reg';
     text-transform: none;
     padding: 10px 0;
+    @include at-query($max, $medium) {
+      flex: 1 0 50%;  
+    }
+    @include at-query($max, $small) {
+      flex: 1 0 100%;  
+    }
   }
 }
 
@@ -4249,6 +4256,7 @@ select::-ms-expand {
   max-width: 90%;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 25px;
@@ -4258,6 +4266,9 @@ select::-ms-expand {
 .quote-wrapper {
   width: 60%;
   text-align: center;
+  @include at-query($max, $medium) {
+    width: 100%;  
+  }
 }
 
 .quote-text {
@@ -4276,11 +4287,15 @@ select::-ms-expand {
 .contact-wrapper {
   width: 30%;
   text-align: center;
+  @include at-query($max, $medium) {
+    width: 100%;  
+  }
 }
 
 .about-footer {
   color: #ffffff;
   margin: 0 -30px;
+  padding: 0 20px;
   background-color: #282903;
   a {
     color: #ffffff;
@@ -4288,5 +4303,8 @@ select::-ms-expand {
   .fa-envelope-o {
     display: block;
     padding-bottom: 20px;
+    @include at-query($max, $medium) {
+      padding-top: 20px;
+    }
   }
 }
