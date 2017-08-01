@@ -624,6 +624,23 @@
           "collection_tags_enable": true,
           "product_vendor_enable": false
         }
+      },
+      "press-item": {
+        "type": "press-item",
+        "blocks": {
+          "1501555311997": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "THE STARTER HOUSE",
+              "press-item-publication": "GARDEN & GUN",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/19_homplace.pdf?18045650189502434799"
+            }
+          }
+        },
+        "block_order": [
+          "1501555311997"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": []
