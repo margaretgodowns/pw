@@ -3238,7 +3238,6 @@ button.mfp-arrow {
   position: relative;
   display: block;
   width: 100%;
-  background-color: $colorProductBackground;
   @include transition(opacity 0.4s ease-out);
 
   .grid-collage & {
@@ -4325,6 +4324,9 @@ select::-ms-expand {
   hr {
     border-width: 3px 0 0 0;
     border-color: #ffffff;
+    @include at-query($max, $small) {
+      padding-bottom: 20px
+    }
   }
 }
 
@@ -4371,11 +4373,28 @@ select::-ms-expand {
 
 .product-info-wrapper {
   position: absolute;
-  top: 50%;
+  top: 46%;
   width: 100%;
   opacity: 0;
 }
 
 .grid-product__price {
   display: block;
+}
+
+.pagination {
+  font-family: 'Proxima_Nova_Reg';
+  font-weight: 200;
+  font-size: 18px;
+  background-color: #282903;
+  margin: 0 -30px;
+  padding: 30px 0;
+  a {
+    color: #ffffff;
+  }
+  .page.current {
+    font: 'Proxima_Nova_Sbold';
+    font-weight: 600;
+    color: #ffffff;
+  }
 }
