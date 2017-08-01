@@ -229,17 +229,17 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501457389497": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501457696218": {
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/IMG_9626.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457389497": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -620,7 +620,7 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "collection_products_grid": "collage",
+          "collection_products_grid": "grid",
           "collection_tags_enable": true,
           "product_vendor_enable": false
         }

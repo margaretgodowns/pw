@@ -4308,3 +4308,74 @@ select::-ms-expand {
     }
   }
 }
+
+/*================ Shop Page Styles ================*/
+#shopify-section-collection-template {
+  .section-header {
+    padding: 30px 0;
+    background-image: url({{ 'PW_Banner.jpg' | asset_url }});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -75px;
+    color: #ffffff;
+  }
+  .section-header h1 {
+    font-family: 'Proxima_Nova_Sbold';
+  }
+  hr {
+    border-width: 3px 0 0 0;
+    border-color: #ffffff;
+  }
+}
+
+.tags--collection {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.tags--collection li:first-of-type {
+  @include at-query($min, $large) {
+    display: none;
+  }
+  @include at-query($max, $small) {
+    display: none;
+  }
+}
+
+.tags--collection li a {
+  color: #ffffff;
+}
+
+.background-pillow:hover {
+  .product-image--featured {
+    opacity: 0;
+    -webkit-transition: all .25s ease;
+  }
+  .product-info-wrapper {
+    opacity: 1;
+  }
+}
+
+.background-pillow {
+  background-size: contain;
+  font-family: 'Proxima_Nova_Sbold';
+  color: #ffffff;
+}
+
+.grid-product__title {
+  font-style: normal;
+}
+
+.product-info-wrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  opacity: 0;
+}
+
+.grid-product__price {
+  display: block;
+}
