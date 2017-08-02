@@ -4109,6 +4109,7 @@ body,
   flex-direction: column;
   text-align: center;
   align-items: center;
+  left: 0;
   a {
     z-index: 11;
   }
@@ -4121,14 +4122,28 @@ body,
     height: 100%;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     padding-bottom: 50px;
+    z-index: 11;
+    width: 100%;
     a {
-      z-index: 11;
       cursor: pointer;
       transition: .2s ease-out;
       color: #ffffff;
       &:hover {
         margin-bottom: 5px;
+      }
+    }
+  }
+  .social-nav-side {
+    width: 20%;
+    @include at-query($max, $medium) {
+      display: none;
+    }
+    a {
+      padding: 0 10px;
+      &:hover {
+        margin-bottom: 0;
       }
     }
   }

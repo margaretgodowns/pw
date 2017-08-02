@@ -27,8 +27,8 @@
     "cart_notes_enable": false,
     "social_facebook_link": "",
     "social_twitter_link": "",
-    "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/pierceandwardinteriors\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/pierceandward\/",
     "social_snapchat_link": "",
     "social_google_plus_link": "",
     "social_tumblr_link": "",
@@ -431,6 +431,13 @@
               "image": "shopify:\/\/shop_images\/PW-Powder-Room.jpg",
               "slide_text_color": "is-dark"
             }
+          },
+          "1501697972685": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/PE-Proofs-0016_f009dc00-3fe2-4c22-b86f-3dd878d4aaa7.jpg",
+              "slide_text_color": "is-dark"
+            }
           }
         },
         "block_order": [
@@ -466,7 +473,8 @@
           "1501458258517",
           "1501458265622",
           "1501458272854",
-          "1501458282250"
+          "1501458282250",
+          "1501697972685"
         ],
         "settings": {
           "hero_home_auto": true,
