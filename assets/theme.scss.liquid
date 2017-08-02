@@ -2846,6 +2846,7 @@ $slick-opacity-not-active: 0.25;
   font-size: em(16px);
   text-transform: uppercase;
   letter-spacing: .14em;
+  @include transition(all 0.2s);
 
   .is-light & {
     color: #fff;
@@ -3923,7 +3924,7 @@ body {
 }
 
 .list-group {
-  @include flex(1 1 10%);
+  @include flex(1 1 25%);
 }
 
 
@@ -3935,6 +3936,11 @@ body {
   a {
     color: #282904;
     font-size: 16px !important;
+    padding: 0 3px;
+    @include transition(opacity 0.2s);
+    &:hover {
+      color: #c69e6a;
+    }
   }
 }
 
@@ -3956,6 +3962,10 @@ body {
     color: #282904;
     font-size: em(14px);
     letter-spacing: .14em;
+    @include transition(opacity 0.2s);
+    &:hover {
+      color: #c69e6a;
+    }
   }
 }
 
@@ -3996,6 +4006,9 @@ body {
   }
 }
 
+.site-nav__link:hover {
+  color: #c69e6a;
+}
 /*================ Helpers ================*/
 .hide-medium-down {
   @include at-query($max, $medium) {
@@ -4337,14 +4350,18 @@ select::-ms-expand {
 #shopify-section-collection-template {
   .section-header {
     padding: 30px 0;
-    background-image: url({{ 'PW_Banner.jpg' | asset_url }});
+    background-image: url({{ 'PW_Banner_copy.jpg' | asset_url }});
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -75px;
     color: #ffffff;
+    @include at-query($max, $medium) {
+      padding: 15px 0;
+    }
   }
   .section-header h1 {
     font-family: 'Proxima_Nova_Sbold';
+    letter-spacing: .12em;
   }
   hr {
     border-width: 3px 0 0 0;
@@ -4401,6 +4418,13 @@ select::-ms-expand {
   top: 46%;
   width: 100%;
   opacity: 0;
+  @include at-query($max, $medium) {
+    opacity: 1;
+    position: static;
+    top: auto;
+    color: #282904;
+    background-color: #ffffff;
+  }
 }
 
 .grid-product__price {
@@ -4425,7 +4449,7 @@ select::-ms-expand {
 }
 
 /*================ Press Page Styles ================*/
-#shopify-section-press-item {
+.shopify-section-press {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -4490,5 +4514,6 @@ select::-ms-expand {
     background-color: #282904;
     color: #ffffff;
     padding: 10px 30px;
+    font-style: normal;
   }
 }

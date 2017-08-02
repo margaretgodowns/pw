@@ -24,33 +24,7 @@
         check against the collection.handle, product type, and vendor.
       {% endcomment %}
       <ul class="tags tags--collection inline-list">
-        <li{% unless current_tags %} class="tag--active"{% endunless %}>
-          {% comment %}
-            Good for /collections/all collection and regular collections
-          {% endcomment %}
-          {% if collection.handle %}
-            <a href="/collections/{{ collection.handle }}">
-              {{ 'collections.general.all_of_collection' | t }}
-            </a>
-
-          {% comment %}
-            Good for automatic type collections
-          {% endcomment %}
-          {% elsif collection.current_type %}
-            <a href="{{ collection.current_type | url_for_type }}">
-              {{ 'collections.general.all_of_collection' | t }}
-            </a>
-
-          {% comment %}
-            Good for automatic vendor collections
-          {% endcomment %}
-          {% elsif collection.current_vendor %}
-            <a href="{{ collection.current_vendor | url_for_vendor }}">
-              {{ 'collections.general.all_of_collection' | t }}
-            </a>
-          {% endif %}
-        </li>
-
+        
         {% for tag in collection.all_tags %}
           {% if current_tags contains tag %}
             <li class="tag--active">

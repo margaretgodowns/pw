@@ -633,12 +633,63 @@
             "settings": {
               "press-item-title": "THE STARTER HOUSE",
               "press-item-publication": "GARDEN & GUN",
-              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/19_homplace.pdf?18045650189502434799"
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/19_homplace.pdf?18045650189502434799",
+              "press-item-image": "shopify:\/\/shop_images\/press-img_09419bd1-84d7-4584-858e-8807d287a0c5.png"
+            }
+          },
+          "1501556533630": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Cali-Cool Home Makeover",
+              "press-item-publication": "",
+              "press-item-link": "https:\/\/www.onekingslane.com\/live-love-home\/jen-meyer-home-makeover-pierce-and-ward\/",
+              "press-item-image": "shopify:\/\/shop_images\/press2.png"
+            }
+          },
+          "1501556659796": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Elegant English-Inspired",
+              "press-item-publication": "Architectural Digest",
+              "press-item-link": "http:\/\/www.architecturaldigest.com\/story\/tour-karen-elsons-elegant-english-inspired-nashville-home",
+              "press-item-image": "shopify:\/\/shop_images\/press3.png"
+            }
+          },
+          "1501556737067": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Leo in Malibu",
+              "press-item-publication": "Trulia",
+              "press-item-link": "https:\/\/www.trulia.com\/blog\/celebrity-homes\/hollywood-heartthrob-leonardo-dicaprio-lists-malibu-home\/",
+              "press-item-image": "shopify:\/\/shop_images\/press4.png"
+            }
+          },
+          "1501556867911": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Soul Sisters",
+              "press-item-publication": "House Beautiful",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/hbx0916-nextwave-lo.pdf?16214652705472318380",
+              "press-item-image": "shopify:\/\/shop_images\/press5.png"
+            }
+          },
+          "1501556988270": {
+            "type": "text",
+            "settings": {
+              "press-item-title": "Southern Hot List",
+              "press-item-publication": "Garden & Gun",
+              "press-item-link": "https:\/\/cdn.shopify.com\/s\/files\/1\/2085\/0019\/files\/22_GG0116_hotlist.pdf?12569446281392227304",
+              "press-item-image": "shopify:\/\/shop_images\/press6.png"
             }
           }
         },
         "block_order": [
-          "1501555311997"
+          "1501555311997",
+          "1501556533630",
+          "1501556659796",
+          "1501556737067",
+          "1501556867911",
+          "1501556988270"
         ],
         "settings": {}
       }
