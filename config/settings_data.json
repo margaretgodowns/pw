@@ -41,17 +41,17 @@
     "share_instagram": true,
     "share_email": true,
     "favicon": "",
-    "checkout_header_image": "",
-    "checkout_logo_image": "",
-    "checkout_logo_position": "left",
-    "checkout_logo_size": "medium",
+    "checkout_header_image": "shopify:\/\/shop_images\/PW_Banner_copy.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/PW_Cart.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
     "checkout_body_background_image": "",
     "checkout_body_background_color": "#fff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
-    "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "Helvetica Neue",
-    "checkout_body_font": "Helvetica Neue",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
     "checkout_accent_color": "#a26b25",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#ff6d6d",
@@ -622,7 +622,7 @@
         "settings": {
           "collection_products_grid": "grid",
           "collection_tags_enable": true,
-          "product_vendor_enable": false
+          "product_vendor_enable": true
         }
       },
       "press-item": {

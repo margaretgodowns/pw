@@ -4358,6 +4358,12 @@ select::-ms-expand {
     @include at-query($max, $medium) {
       padding: 15px 0;
     }
+    @media screen and (max-width: 768px) {
+      margin-bottom: 0;
+      background-size: 1000px;
+      background-position-y: -108px;
+      background-position-x: -36px;
+    }
   }
   .section-header h1 {
     font-family: 'Proxima_Nova_Sbold';
@@ -4366,9 +4372,6 @@ select::-ms-expand {
   hr {
     border-width: 3px 0 0 0;
     border-color: #ffffff;
-    @include at-query($max, $small) {
-      padding-bottom: 20px
-    }
   }
 }
 
@@ -4378,15 +4381,6 @@ select::-ms-expand {
   flex-direction: row-reverse;
   margin: 0 auto;
   justify-content: center;
-}
-
-.tags--collection li:first-of-type {
-  @include at-query($min, $large) {
-    display: none;
-  }
-  @include at-query($max, $small) {
-    display: none;
-  }
 }
 
 .tags--collection li a {
@@ -4400,6 +4394,16 @@ select::-ms-expand {
   }
   .product-info-wrapper {
     opacity: 1;
+  }
+}
+
+.is-sold-out .background-pillow:hover {
+  .product-image--featured {
+    opacity: 1;
+    -webkit-transition: all .25s ease;
+  }
+  .product-info-wrapper {
+    opacity: 0;
   }
 }
 
@@ -4446,6 +4450,10 @@ select::-ms-expand {
     font-weight: 600;
     color: #ffffff;
   }
+}
+
+.is-sold-out .product--image {
+  opacity: 1;
 }
 
 /*================ Press Page Styles ================*/
