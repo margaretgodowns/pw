@@ -40,7 +40,7 @@
     "share_pinterest": true,
     "share_instagram": true,
     "share_email": true,
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/logo-green.png",
     "checkout_header_image": "shopify:\/\/shop_images\/PW_Banner_copy.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/PW_Cart.png",
     "checkout_logo_position": "center",

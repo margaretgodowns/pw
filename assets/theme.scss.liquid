@@ -4453,6 +4453,12 @@ select::-ms-expand {
   opacity: 1;
 }
 
+.product-single__photo--flex-wrapper {
+  @include at-query($max, $small) {
+    margin-top: 50px;
+  }
+}
+
 /*================ Press Page Styles ================*/
 .shopify-section-press {
   display: flex;
