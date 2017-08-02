@@ -2715,12 +2715,6 @@ $socialIconFontStack: 'icons';
   }
 }
 
-@include at-query($min, $postSmall) {
-  .update-cart + .cart__checkout {
-    margin-left: $gutter / 2;
-  }
-}
-
 .cart__row--table {
   display: table;
   table-layout: fixed;
@@ -3033,3 +3027,10 @@ $socialIconFontStack: 'icons';
   }
 }
 
+.js-qty__adjust {
+  display: none;
+}
+
+input:-webkit-autofill {
+  background-color: #ffffff;
+}

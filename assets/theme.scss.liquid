@@ -2847,14 +2847,7 @@ $slick-opacity-not-active: 0.25;
   text-transform: uppercase;
   letter-spacing: .14em;
   @include transition(all 0.2s);
-
-  .is-light & {
-    color: #fff;
-  }
-
-  .is-dark & {
-    color: #282904;
-  }
+  color: #282904;
 }
 
 .site-nav--has-dropdown {
@@ -4532,13 +4525,16 @@ select::-ms-expand {
 
 /*================ Cart Styles ================*/
 .drawer__title,
-.ajaxcart__subtotal {
+.ajaxcart__subtotal,
+.cart__row {
   font-family: 'Proxima_Nova_Sbold';
 }
 
 .ajaxcart__product-name, 
 .cart__product-name,
-.ajaxcart__note {
+.ajaxcart__note,
+.cart__row--table,
+.cart--empty-message {
   font-family: 'Proxima_Nova_Reg';
   font-style: normal;
 }
@@ -4547,7 +4543,27 @@ select::-ms-expand {
   display: none;
 }
 
-.ajaxcart__note {
+.ajaxcart__note,
+.cart--empty-message {
   font-size: 1em;
   text-transform: none;
+}
+
+#your-shopping-cart {
+  .section-header h1 {
+    padding-top: 25px;
+    font-family: 'Proxima_Nova_Sbold';
+    letter-spacing: .12em;
+    color: #282903;
+  }
+  .hr--small {
+    border-width: 3px 0 0 0;
+  }
+}
+
+.cart--continue-browsing a {
+  color: #282904;
+  &:hover {
+    color: #c69e6a;
+  }
 }
