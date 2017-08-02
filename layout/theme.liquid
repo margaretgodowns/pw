@@ -57,10 +57,11 @@
 
   <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'theme.js' | asset_url }}" defer="defer"></script><!--<![endif]-->
   <!--[if lte IE 9]><script src="{{ 'theme.js' | asset_url }}"></script><![endif]-->
-  {% comment %}
+  
   <!--[if (gt IE 9)|!(IE)]><!--><script src="{{ 'pw.js' | asset_url }}" defer="defer"></script><!--<![endif]-->
   <!--[if lte IE 9]><script src="{{ 'pw.js' | asset_url }}"></script><![endif]-->
-  {% endcomment %}
+  
+
   <!-- Header hook for plugins ================================================== -->
   {{ content_for_header }}
   {% include 'oldIE-js' %}
