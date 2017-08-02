@@ -4023,6 +4023,10 @@ body {
   }
 }
 
+button:focus {
+  outline: 0;
+}
+
 /*================ Index Template Styles ================*/
 body,
 .wrapper {
@@ -4524,4 +4528,26 @@ select::-ms-expand {
     padding: 10px 30px;
     font-style: normal;
   }
+}
+
+/*================ Cart Styles ================*/
+.drawer__title,
+.ajaxcart__subtotal {
+  font-family: 'Proxima_Nova_Sbold';
+}
+
+.ajaxcart__product-name, 
+.cart__product-name,
+.ajaxcart__note {
+  font-family: 'Proxima_Nova_Reg';
+  font-style: normal;
+}
+
+.ajaxcart__qty .ajaxcart__qty-adjust {
+  display: none;
+}
+
+.ajaxcart__note {
+  font-size: 1em;
+  text-transform: none;
 }
