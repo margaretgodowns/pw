@@ -181,7 +181,7 @@
           "1500421410366": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Home.png",
+              "image": "shopify:\/\/shop_images\/PW-portrait_MAIN_2c2f8f68-e8b3-48ba-b0d3-2f58d772943a.jpeg",
               "slide_text_color": "is-dark",
               "slide_subheading": "",
               "slide_heading": "",
@@ -201,6 +201,62 @@
       "slideshow-portfolio": {
         "type": "slideshow-portfolio",
         "blocks": {
+          "1501457790731": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501786931116": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rosesquare.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501786016575": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/square.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458122508": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9558.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783638085": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rec.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458130804": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9576.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458152276": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477_48f121ca-9a0e-4db9-b8d9-f98238207243.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501458145459": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9626_e23b0f07-f731-4b69-aeb9-a1fe117a0814.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
           "1501697972685": {
             "type": "slide",
             "settings": {
@@ -215,31 +271,10 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501458122508": {
+          "1501787511009": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9558.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458130804": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9576.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458145459": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9626_e23b0f07-f731-4b69-aeb9-a1fe117a0814.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458152276": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477_48f121ca-9a0e-4db9-b8d9-f98238207243.jpg",
+              "image": "shopify:\/\/shop_images\/greenc.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -303,41 +338,6 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/IMG_7005.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501783638085": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/rec.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501786016575": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/square.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457790731": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501786931116": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/rosesquare.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501787511009": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/greenc.jpg",
               "slide_text_color": "is-dark"
             }
           }

@@ -52,7 +52,7 @@
               {% if product.images[1] %} 
                 style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%; background-image: url('{{ product.images[1] | img_url: '2048x' }}');"
               {% else %}
-                style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%; background-color: #c69e6a;"
+                style="padding-top:{{ 1 | divided_by: product.featured_image.aspect_ratio | times: 100 }}%; background-color: #282904;"
                 {% endif %}
                 >
               <img class="product--image product-image--featured lazyload {{ img_id_class }}"
