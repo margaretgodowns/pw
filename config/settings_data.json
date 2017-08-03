@@ -215,111 +215,6 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501733338932": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/2.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457389497": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457696218": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9626.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457790731": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457882173": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9445.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457906325": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9460.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457927248": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9478.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457949196": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9487.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457970398": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9488.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501457992420": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9509.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458073787": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9512.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458092679": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9514.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458100916": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9528.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458107941": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9537.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458115852": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9546.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501458122508": {
             "type": "slide",
             "settings": {
@@ -334,13 +229,6 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501458137952": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9619.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501458145459": {
             "type": "slide",
             "settings": {
@@ -352,48 +240,6 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477_48f121ca-9a0e-4db9-b8d9-f98238207243.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458160140": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_026_916c6741-3cef-49aa-8632-46d59c347ff2.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458168693": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_627.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458178128": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_641.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458186373": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_751.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458193268": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/OKL_Jen_Meyer_Makeover_828.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501458258517": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PE-Proofs-0031.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -463,40 +309,51 @@
           "1501783638085": {
             "type": "slide",
             "settings": {
-              "image": "",
+              "image": "shopify:\/\/shop_images\/rec.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501786016575": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/square.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457790731": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501786931116": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rosesquare.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501787511009": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/greenc.jpg",
               "slide_text_color": "is-dark"
             }
           }
         },
         "block_order": [
+          "1501457790731",
+          "1501786931116",
+          "1501786016575",
+          "1501458122508",
+          "1501783638085",
+          "1501458130804",
+          "1501458152276",
+          "1501458145459",
           "1501697972685",
           "1501457353542",
-          "1501733338932",
-          "1501457389497",
-          "1501457696218",
-          "1501457790731",
-          "1501457882173",
-          "1501457906325",
-          "1501457927248",
-          "1501457949196",
-          "1501457970398",
-          "1501457992420",
-          "1501458073787",
-          "1501458092679",
-          "1501458100916",
-          "1501458107941",
-          "1501458115852",
-          "1501458122508",
-          "1501458130804",
-          "1501458137952",
-          "1501458145459",
-          "1501458152276",
-          "1501458160140",
-          "1501458168693",
-          "1501458178128",
-          "1501458186373",
-          "1501458193268",
-          "1501458258517",
+          "1501787511009",
           "1501458265622",
           "1501458272854",
           "1501458282250",
@@ -505,8 +362,7 @@
           "1501783565052",
           "1501783577364",
           "1501783601266",
-          "1501783616869",
-          "1501783638085"
+          "1501783616869"
         ],
         "settings": {
           "hero_home_auto": true,
