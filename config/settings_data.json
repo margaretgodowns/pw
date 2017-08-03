@@ -417,6 +417,55 @@
               "image": "shopify:\/\/shop_images\/PW-Powder-Room.jpg",
               "slide_text_color": "is-dark"
             }
+          },
+          "1501783485754": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6624-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783553794": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6638-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783565052": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6652-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783577364": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6715-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783601266": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6917-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783616869": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_7005.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501783638085": {
+            "type": "slide",
+            "settings": {
+              "image": "",
+              "slide_text_color": "is-dark"
+            }
           }
         },
         "block_order": [
@@ -450,10 +499,17 @@
           "1501458258517",
           "1501458265622",
           "1501458272854",
-          "1501458282250"
+          "1501458282250",
+          "1501783485754",
+          "1501783553794",
+          "1501783565052",
+          "1501783577364",
+          "1501783601266",
+          "1501783616869",
+          "1501783638085"
         ],
         "settings": {
-          "hero_home_auto": false,
+          "hero_home_auto": true,
           "home_hero_auto_speed": "5000"
         }
       },
