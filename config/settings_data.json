@@ -14,7 +14,7 @@
     "color_drawer_border": "#343535",
     "color_drawer_button": "#a26b25",
     "color_drawer_button_text": "#ffffff",
-    "type_header_family": "Google_Old+Standard+TT_400_serif",
+    "type_header_family": "Google_Old+Standard+TT_700_serif",
     "type_header_base_size": "30px",
     "type_header_border_thickness": "1px",
     "type_accent_family": "Google_Montserrat_400_sans",
@@ -201,24 +201,10 @@
       "slideshow-portfolio": {
         "type": "slideshow-portfolio",
         "blocks": {
-          "1500421434012": {
+          "1501697972685": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/EBP2443_984e8ea7-d477-47a6-a35a-37e806d950fa.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1500421446932": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/EBP2802.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1500822352406": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9428_ddd0aa94-1a59-485d-9ab3-f8823d243986.jpg",
+              "image": "shopify:\/\/shop_images\/PE-Proofs-0016_f009dc00-3fe2-4c22-b86f-3dd878d4aaa7.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -229,10 +215,10 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501457696218": {
+          "1501733338932": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9626.jpg",
+              "image": "shopify:\/\/shop_images\/2.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -240,6 +226,13 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/leslee-mitchell-IMG_9477.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457696218": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9626.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -397,13 +390,6 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501458202363": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PE-Proofs-0016.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501458258517": {
             "type": "slide",
             "settings": {
@@ -431,22 +417,14 @@
               "image": "shopify:\/\/shop_images\/PW-Powder-Room.jpg",
               "slide_text_color": "is-dark"
             }
-          },
-          "1501697972685": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/PE-Proofs-0016_f009dc00-3fe2-4c22-b86f-3dd878d4aaa7.jpg",
-              "slide_text_color": "is-dark"
-            }
           }
         },
         "block_order": [
-          "1500421434012",
-          "1500421446932",
-          "1500822352406",
+          "1501697972685",
           "1501457353542",
-          "1501457696218",
+          "1501733338932",
           "1501457389497",
+          "1501457696218",
           "1501457790731",
           "1501457882173",
           "1501457906325",
@@ -469,15 +447,13 @@
           "1501458178128",
           "1501458186373",
           "1501458193268",
-          "1501458202363",
           "1501458258517",
           "1501458265622",
           "1501458272854",
-          "1501458282250",
-          "1501697972685"
+          "1501458282250"
         ],
         "settings": {
-          "hero_home_auto": true,
+          "hero_home_auto": false,
           "home_hero_auto_speed": "5000"
         }
       },
@@ -500,7 +476,7 @@
       "about-hero-image": {
         "type": "about-hero-image",
         "settings": {
-          "hero-image-about": "shopify:\/\/shop_images\/pierce_ward_about_f2ca446e-7e1e-4866-bfe1-0f3499cb7fb7.jpg"
+          "hero-image-about": "shopify:\/\/shop_images\/PW-Portrait-0002_5c27e244-ceaf-4106-9cff-ec3a741e927f.jpg"
         }
       },
       "about-text": {
