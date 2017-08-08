@@ -201,17 +201,17 @@
       "slideshow-portfolio": {
         "type": "slideshow-portfolio",
         "blocks": {
-          "1501457790731": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501786931116": {
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/rosesquare.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1501457790731": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_9370_57d3b85e-3374-4fb6-8207-8590e0d4e4aa.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -226,13 +226,6 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/IMG_9558.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
-          "1501783638085": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/rec.jpg",
               "slide_text_color": "is-dark"
             }
           },
@@ -271,13 +264,6 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501787511009": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/greenc.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501458265622": {
             "type": "slide",
             "settings": {
@@ -306,13 +292,6 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501783553794": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6638-Edit.jpg",
-              "slide_text_color": "is-dark"
-            }
-          },
           "1501783565052": {
             "type": "slide",
             "settings": {
@@ -327,42 +306,87 @@
               "slide_text_color": "is-dark"
             }
           },
-          "1501783601266": {
+          "1502125136000": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_6917-Edit.jpg",
+              "image": "shopify:\/\/shop_images\/EBP2656.jpg",
               "slide_text_color": "is-dark"
             }
           },
-          "1501783616869": {
+          "1502125215721": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/IMG_7005.jpg",
+              "image": "shopify:\/\/shop_images\/EBP2678.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125258348": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/EBP2650.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125337996": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/EBP2888.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125491275": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_7261-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125572844": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6949-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125590399": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6958-Edit.jpg",
+              "slide_text_color": "is-dark"
+            }
+          },
+          "1502125600420": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6944.jpg",
               "slide_text_color": "is-dark"
             }
           }
         },
         "block_order": [
-          "1501457790731",
           "1501786931116",
+          "1501457790731",
           "1501786016575",
           "1501458122508",
-          "1501783638085",
           "1501458130804",
           "1501458152276",
           "1501458145459",
           "1501697972685",
           "1501457353542",
-          "1501787511009",
           "1501458265622",
           "1501458272854",
           "1501458282250",
           "1501783485754",
-          "1501783553794",
           "1501783565052",
           "1501783577364",
-          "1501783601266",
-          "1501783616869"
+          "1502125136000",
+          "1502125215721",
+          "1502125258348",
+          "1502125337996",
+          "1502125491275",
+          "1502125572844",
+          "1502125590399",
+          "1502125600420"
         ],
         "settings": {
           "hero_home_auto": true,
